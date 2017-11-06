@@ -14,7 +14,8 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.GET_TASKS" />
     <uses-permission android:name="android.permission.VIBRATE"/>
-    <permission android:name="spa.lyh.cn.testautopush.permission.MIPUSH_RECEIVE" android:protectionLevel="signature" />
+    <permission android:name="spa.lyh.cn.testautopush.permission.MIPUSH_RECEIVE"
+        android:protectionLevel="signature" />
     <!--这里com.xiaomi.mipushdemo改成app的包名-->
     <uses-permission android:name="spa.lyh.cn.testautopush.permission.MIPUSH_RECEIVE" />
     <!--这里com.xiaomi.mipushdemo改成app的包名-->
@@ -141,7 +142,7 @@
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <!--华为推送需要的转跳Activity，请根据具体项目设置具体名称-->
-                <data android:scheme="huaweiPush"
+                <data android:scheme="huaweipush"
                     android:host="spa.lyh.cn"
                     android:path="/notify_sync"/>
             </intent-filter>
