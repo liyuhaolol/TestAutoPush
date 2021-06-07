@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="集成华为小米的端外推送"/>
+        android:text="集成小米的端外推送"/>
 
 
 </RelativeLayout>

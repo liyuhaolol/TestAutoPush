@@ -1,7 +1,7 @@
 package spa.lyh.cn.testautopush.activity;
 
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import spa.lyh.cn.testautopush.R;
